@@ -1,0 +1,125 @@
+* {
+	box-sizing: border-box;
+
+	/*to reset css defaults in browser*/
+	/*margin: 0;
+	padding: 0;*/
+}
+
+#para_id {
+		color: antiquewhite;
+		font-size: 15px;
+		font-family: monospace;
+		border: 1px solid black;
+		padding: 10px;
+		height: 300px;
+		width: 600px;
+		overflow: auto;
+		background-image: url("trig.jpg");
+		background-size: 600px;
+		background-repeat: no-repeat;
+	}	
+	
+	h2 {
+		color: green;
+		font-size: 20px;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: sans-serif;
+		background-color: yellow;
+		border: 3px solid black;
+	}	
+
+	#triggrrd {
+	display: flex;
+	justify-content: center;
+	font-size: 35px;
+	font-family: monospace;
+
+	}
+
+	section.menu li {
+		list-style: none;
+		font-size: 3;
+		display: flex;
+		justify-content: center;
+		
+	}
+
+	section.menu a:link, a:visited {
+		text-decoration: none;
+		background-color: palegreen;
+		color: black;
+		border: 3px solid darkgreen;
+		display: block;
+		width: 500px;
+		text-align: center;
+		margin-bottom: 5px;
+
+	}
+
+	section.menu a:hover, a:active {
+		background-color: palevioletred;
+		color: green;
+	}
+
+	section.menu li:nth-child(8) {
+		font-size: 30px;
+	}
+
+	section.menu li:nth-child(8) a:hover {
+		background-color: lightyellow;
+		color: indianred;
+		font-style: italic;
+		cursor: help;
+	}
+
+	#para_one p:hover {
+		background-color: rgba(60, 180, 60, .2);
+		cursor: pointer;
+	}
+
+	section.resize {
+		width: 50%;
+		float: left;
+	}
+
+	#photo_1 {
+		clear: left;
+	}
+
+	p {
+		padding: 10px;
+	}
+
+	#para_one {
+		clear: left;
+	}
+
+	#para_four {
+		clear: left;
+	}
+
+	#para_six {
+		clear: left;
+	}
+
+@media (max-width: 1000px) {
+
+	#triggrrd {
+		font-size: 15px;
+		font-family: serif;
+
+	}
+	}
+
+@media (max-width: 800px) {
+
+	#triggrrd {
+		font-size: 7px;
+		font-family: cursive;
+	}
+	}
+
+	
+
